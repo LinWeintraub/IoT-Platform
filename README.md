@@ -2,6 +2,14 @@
 
 IOT-Platform aims to create a comprehensive IoT infrastructure for companies and their products, providing features such as updates, alerts, statistical calculations, proactive maintenance, and optimal device performance. The platform is designed using object-oriented principles, SOLID principles, and incorporates various design patterns for a robust and scalable system architecture.
 
+## Getting Started
+To get started with the IoT Platform, follow these steps:
+
+1. Clone the repository: git clone https://github.com/LinWeintraub/iot-platform.git
+2. Set up the required dependencies, including the web server, MySQL database and MongoDB database.
+3. Configure the platform settings, such as the database connection details, in the appropriate configuration files.
+4. Build and run the project.
+
 ## Features
 * **Company and Product Registration:** The platform allows companies to register themselves and their products. Company and product details are stored in a MySQL database, enabling seamless management of registered entities.
 
@@ -13,12 +21,5 @@ IOT-Platform aims to create a comprehensive IoT infrastructure for companies and
 
 * **Dir Monitor:** The Dir Monitor module utilizes the Observer design pattern to actively monitor a designated folder. This folder allows companies to add JAR files containing additional commands as needed. When a new JAR file is added to the monitored folder, it is automatically detected and loaded into the Singleton Command Factory, enabling the execution of newly added commands without any manual configuration.
 
-## Getting Started
-To get started with the IoT Platform, follow these steps:
-
-1. Clone the repository: git clone https://github.com/LinWeintraub/iot-platform.git
-2. Set up the required dependencies, including the web server, MySQL database and MongoDB database.
-3. Configure the platform settings, such as the database connection details, in the appropriate configuration files.
-4. Build and run the project.
 
 ![Alt Text](https://github.com/LinWeintraub/IoT-Platform/blob/main/IoTPlatform.jpeg)
