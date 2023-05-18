@@ -21,3 +21,4 @@ To get started with the IoT Platform, follow these steps:
 3. Configure the platform settings, such as the database connection details, in the appropriate configuration files.
 4. Build and run the project.
 
+![Alt Text](https://github.com/LinWeintraub/IoT-Platform/blob/main/IoTPlatform.jpeg)
